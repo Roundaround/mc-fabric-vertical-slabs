@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "verticalslabs",
+  "version": "${version}",
+  "name": "Roundaround's Vertical Slabs",
+  "description": "Add vertical variants of all slabs in Minecraft.",
+  "authors": [
+    "Roundaround"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Roundaround/mc-fabric-vertical-slabs"
+  },
+  "license": "MIT",
+  "icon": "assets/verticalslabs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "*": [
+      "me.roundaround.verticalslabs.VerticalSlabsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+  }
+}
